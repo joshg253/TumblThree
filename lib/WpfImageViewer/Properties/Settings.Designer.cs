@@ -12,7 +12,7 @@ namespace WpfImageViewer.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.0.3.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -34,142 +34,115 @@ namespace WpfImageViewer.Properties {
                 this["ApplicationTitle"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Black")]
-        public string BackgroundColor
-        {
-            get
-            {
+        public string BackgroundColor {
+            get {
                 return ((string)(this["BackgroundColor"]));
             }
-            set
-            {
+            set {
                 this["BackgroundColor"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool CloseOnLostFocus
-        {
-            get
-            {
+        public bool CloseOnLostFocus {
+            get {
                 return ((bool)(this["CloseOnLostFocus"]));
             }
-            set
-            {
+            set {
                 this["CloseOnLostFocus"] = value;
             }
         }
-
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("2")]
-        public int ImageDurationSeconds
-        {
-            get
-            {
-                return ((int)(this["ImageDurationSeconds"]));
-            }
-            set
-            {
-                this["ImageDurationSeconds"] = value;
-            }
-        }
-
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(".bmp,.gif,.jpeg,.jpg,.png,.tif,.tiff")]
-        public string IncludedFileExtensions
-        {
-            get
-            {
-                return ((string)(this["IncludedFileExtensions"]));
-            }
-            set
-            {
-                this["IncludedFileExtensions"] = value;
-            }
-        }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Green")]
-        public string MsgColor
-        {
-            get
-            {
+        public string MsgColor {
+            get {
                 return ((string)(this["MsgColor"]));
             }
-            set
-            {
+            set {
                 this["MsgColor"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("2")]
-        public double MsgFadeoutSeconds
-        {
-            get
-            {
+        public double MsgFadeoutSeconds {
+            get {
                 return ((double)(this["MsgFadeoutSeconds"]));
             }
-            set
-            {
+            set {
                 this["MsgFadeoutSeconds"] = value;
             }
         }
-
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2")]
+        public int ImageDurationSeconds {
+            get {
+                return ((int)(this["ImageDurationSeconds"]));
+            }
+            set {
+                this["ImageDurationSeconds"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(".bmp,.gif,.jpeg,.jpg,.png,.tif,.tiff")]
+        public string IncludedFileExtensions {
+            get {
+                return ((string)(this["IncludedFileExtensions"]));
+            }
+            set {
+                this["IncludedFileExtensions"] = value;
+            }
+        }
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool RunAnimatedGifs
-        {
-            get
-            {
+        public bool RunAnimatedGifs {
+            get {
                 return ((bool)(this["RunAnimatedGifs"]));
             }
-            set
-            {
+            set {
                 this["RunAnimatedGifs"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool ShowHelpOnLoad
-        {
-            get
-            {
+        public bool ShowHelpOnLoad {
+            get {
                 return ((bool)(this["ShowHelpOnLoad"]));
             }
-            set
-            {
+            set {
                 this["ShowHelpOnLoad"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
-        public double ZoomMax
-        {
-            get
-            {
+        public double ZoomMax {
+            get {
                 return ((double)(this["ZoomMax"]));
             }
-            set
-            {
+            set {
                 this["ZoomMax"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0.1")]
